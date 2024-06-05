@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+    .container {
+      width: 100%;
+      height: 30vh; /* Adjust the height as needed */
+      background-image: url('image.jpeg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .buss {
+      width: 100%;
+      height: 10vh; /* Adjust the height as needed */
+      background: linear-gradient(to right, rgb(255, 206, 114), rgb(248, 70, 99));
+      background-size: cover;
+      display: flex; /* Use flexbox for horizontal layout */
+      justify-content: space-between; /* Spread items evenly across the container */
+      align-items: center; /* Vertically center items */
+      padding: 0 20px; /* Add padding to the sides */
+      background-position: center;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+
+    .text {
+      color: #ffffff;
+      font-size: 1.5rem;
+    }
+
+    .about {
+      width: 100%;
+      background: rgb(230, 230, 230);
+      background-size: cover;
+      background-position: center;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .service {
+      width: 100%;
+      height: 38vh; /* Adjust the height as needed */
+      background: rgb(85, 79, 79);
+      background-size: cover;
+      background-position: center;
+      justify-content: center;
+      align-items: center;
+      
+      box-sizing: border-box;
+    }
+
+    li {
+      float: right;
+      display: block;
+      padding: 8px;
+    }
+
+    li:hover {
+      background-color: yellow;
+    }
+
+    .container {
+      display: flex;
+    }
+
+    .element {
+      margin-right: 10px; /* Adjust the spacing between icons */
+    }
+
+    .element:last-child {
+      margin-right: 0; /* Remove margin from the last icon */
+    }
+
+    .element i {
+      font-size: 24px; /* Adjust the size of the icon */
+      color: #3b5998; /* Facebook icon color */
+    }
+
+    .vertical-line {
+      border-left: 2px solid rgb(120, 10, 28); /* Adjust the thickness and color as needed */
+      height: 100px; /* Adjust the height of the line */
+    }
+  </style>
+</head>
+
+<body style="width: 80%; height:100%;  padding-left: 10%; background: linear-gradient(to bottom, rgb(255, 239, 214), rgb(127, 126, 126));">
+  <h3 style="background: linear-gradient(to right, rgb(255, 206, 114), rgb(248, 70, 99));">
+    <i class="fab fa-twitter" style="padding: 7px;">  | </i>
+  
+    <!-- Instagram symbol -->
+    <i class="fab fa-instagram" style="padding:7px;"> | </i>
+    <i class="fab fa-facebook" style="padding : 7px">  |  </i>
+    
+    <font style="font-size: small; margin-left: 100px;">
+      +91384348488 | chetanxyz@gmail.com
+      <button style="font: weight 2px; border-color: antiquewhite; border-radius: 40%;  margin: 5px 5px 5px 500px; background: linear-gradient(to right, rgb(255, 206, 114), rgb(248, 70, 99));" >Request & consult</button>
+    </font>
+  </h3>
+
+  <h2> 
+    <ul style="list-style-type: none; margin: 0; padding: 0;font-size: medium;">
+      <li> <input type="text" placeholder="Search"></li>
+      <li>Home</li> 
+      <li>About</li>
+      <li>Blog</li> 
+      <li>Page</li>
+      <li>Buy now</li>
+    </ul>
+  </h2>
+ 
+  <div class="container" style="opacity: 0.7;">
+    <span style="font-size:xx-large;padding-left: 400px;color: rgb(13, 13, 49);  text-decoration: underline; font-weight: bold;"><b><b style="font-size: 400%;">|</b>Creative Digital Agency</b></span>
+  </div>
+  
+  <div class="buss">
+    <!-- Three different text elements -->
+    <div class="text" style="font-size: large;"><i class="fa-solid fa-business-time" style="padding: 5px;color: black;"></i>Launch Business</div>
+    <div class="text" style="font-size: large;"><i class="fa-solid fa-globe"  style="padding: 5px;color: black;"></i>Online Support Business</div>
+    <div class="text" style="font-size: large;"><i class="fa-sharp fa-regular fa-calendar-days" style="padding: 5px;color: black;"></i>Time Management</div>
+  </div>
+  
+  <div class="about">
+    <br><span style="padding-bottom:20px;"><u><b style="font-size: large;">ABOUT</b>    <b style="font-size: large; padding-left:5px ;">US</b></u>
+    <br><font><b>15 years, we passionate about achieving better result for our clients</b></font>
+    <br><font>A creative agency can help you design your brand visual identity, including logo, letterheads, business cards, photographs, brochures, catalogs and other marketing collaterals – print and digital. Typically, it houses a team of graphic designers, illustrators, animators, photographers and audio/video producers.</font>
+  </div>
+ 
+  <div class="service">
+    <br><span style="padding-left:20px;"><b style="font-size: large;"><u>OUR</u> <b> <u>SERVICES</u> </b></span>
+    <br>
+    <br>
+    <div style="position: relative; display: inline-block; margin-right: 40px;">
+        <img src="img2.jpeg" alt="im" width="300px" height="200px" style="padding-left: 40px;"></img>
+        <div style="position: absolute; bottom: 10px; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.7); padding: 10px;">
+          <i class="fa-solid fa-user" style="color: rgb(82, 45, 45); padding: 4px;"></i>User Experience
+        </div>
+    </div>
+    <div style="position: relative; display: inline-block;">
+        <img src="img1.jpeg" alt="Service Image 2" width="300px" height="200px" style="padding-left: 60px;"></img>
+        <div style="position: absolute; bottom: 10px; left: 0; right: 0; background-color: rgba(255, 255, 255, 0.7); padding: 10px;">
+          <i class="fa-brands fa-codepen" style="color: rgb(82, 45, 45); padding: 4px;"></i>    Creative Design
+        </div>
+    </div>
+
+    <img src="ready.jpeg" alt="Service Image 2" width="300px" height="200px" style="padding-left: 120px;"></img>
+  </div>
+</div>
+
+
+</body>
